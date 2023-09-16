@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-based Image Colorizer</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles -->
+    <style>
+        body {
+            background-color: #f7f9fc;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .hero-section {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .container {
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+
+        footer {
+            background-color: #333;
+            padding: 20px 0;
+            color: #fff;
+            text-align: center;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: underline;
+        }
+
+        footer a:hover {
+            color: #007BFF;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="hero-section">
+        <h1>AI-based Image Colorizer</h1>
+        <p>Bring colors to your black & white photos effortlessly</p>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Upload and Colorize</h5>
+                        <form action="/" method="post" enctype="multipart/form-data">
+                            <div class="form-group">
+                                <input type="file" name="file" class="form-control">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Colorize</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        Created by Michele Joseph - <a href="maj92@cornell.edu">maj92@cornell.edu</a>
+    </footer>
+
+    <!-- Optional JavaScript; Bootstrap JS, jQuery, and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
